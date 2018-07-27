@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sonuroy.mygame.MainActivity"
+    android:padding="35sp">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:onClick="on2Click"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:layout_marginBottom="26dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:onClick="on3Click"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:onClick="on4Click"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="75sp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_height="75sp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:onClick="on5Click"
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/button8"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="75sp"
+        android:textColor="#000"
+        android:layout_height="75sp"
+        android:text=""
+        android:textSize="40sp"
+        android:onClick="on6Click"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:text=""
+        android:textSize="40sp"
+        android:onClick="on7Click"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:text=""
+        android:textSize="40sp"
+        android:onClick="on8Click"
+        android:textColor="#000"
+        android:layout_above="@+id/button11"
+        android:layout_alignLeft="@+id/button5"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginBottom="21dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:onClick="on9Click"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_alignLeft="@+id/button6"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_alignStart="@+id/button6" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:textColor="#000"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignEnd="@+id/button7"
+        android:layout_alignRight="@+id/button7"
+        android:text=""
+        android:textSize="40sp"
+        android:onClick="on10Click"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"
+        android:onClick="onReset"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text=""
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:layout_marginTop="70sp"
+        android:layout_marginBottom="70sp"
+        android:layout_marginLeft="80sp" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:layout_marginTop="70sp"
+        android:layout_marginBottom="70sp"
+        android:layout_marginLeft="170sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@android:color/black"
+        android:layout_marginTop="165sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@android:color/black"
+        android:layout_marginTop="240sp"/>
+</RelativeLayout>
